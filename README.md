@@ -1,2 +1,2 @@
 # Citra-Client
-Reason why i released source is because rsdnt and mimic are retards
+Reason why i released source is because mimic is a skid

@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{AC16F11B-AA78-4FE3-94E9-5FFEF55D0FF7}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>9.0</LangVersion>
+    <AssemblyName>CitraClient</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MelonLoader">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnhollowerBaseLib">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnhollowerBaseLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCCore-Standalone">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\VRCCore-Standalone.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCSDKBase">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\VRCSDKBase.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.UI.Elements">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\VRC.UI.Elements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon-DotNet">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\Photon-DotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCSDK3">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\VRCSDK3.dll</HintPath>
+    </Reference>
+    <Reference Include="DataModel">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\DataModel.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.Udon">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\VRC.Udon.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\Il2CppSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Il2CppImageConversionManager">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.Il2CppImageConversionManager.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.UI.Core">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\VRC.UI.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CitraClient\API\QM\APIStuff.cs" />
+    <Compile Include="CitraClient\API\QM\CitraQMAPI.cs" />
+    <Compile Include="CitraClient\API\QM\ObjectHandler.cs" />
+    <Compile Include="CitraClient\API\QM\Popups.cs" />
+    <Compile Include="CitraClient\API\QM\QMButtonBase.cs" />
+    <Compile Include="CitraClient\API\QM\QMInfo.cs" />
+    <Compile Include="CitraClient\API\QM\QMLabel.cs" />
+    <Compile Include="CitraClient\API\QM\QMNestedButton.cs" />
+    <Compile Include="CitraClient\API\QM\QMPanel.cs" />
+    <Compile Include="CitraClient\API\QM\QMQuarterButton.cs" />
+    <Compile Include="CitraClient\API\QM\QMScrollMenu.cs" />
+    <Compile Include="CitraClient\API\QM\QMSingleButton.cs" />
+    <Compile Include="CitraClient\API\QM\QMSlider.cs" />
+    <Compile Include="CitraClient\API\QM\QMToggleButton.cs" />
+    <Compile Include="CitraClient\API\QM\ScrollObject.cs" />
+    <Compile Include="CitraClient\API\QM\Tab.cs" />
+    <Compile Include="CitraClient\API\SM\SMAPI.cs" />
+    <Compile Include="CitraClient\API\SM\SMButton.cs" />
+    <Compile Include="CitraClient\API\SM\SMLabel.cs" />
+    <Compile Include="CitraClient\CitraBuildInfo.cs" />
+    <Compile Include="CitraClient\CitraNamePlates\ColorManager.cs" />
+    <Compile Include="CitraClient\CitraNamePlates\CustomPlates.cs" />
+    <Compile Include="CitraClient\CitraNamePlates\Object.cs" />
+    <Compile Include="CitraClient\Config\Configuration.cs" />
+    <Compile Include="CitraClient\Config\RuntimeConfig.cs" />
+    <Compile Include="CitraClient\Config\Settings.cs" />
+    <Compile Include="CitraClient\Discord\DiscordRPC.cs" />
+    <Compile Include="CitraClient\Discord\DiscordRPCSetup.cs" />
+    <Compile Include="CitraClient\GUI\GUITabs\ExploitsTab.cs" />
+    <Compile Include="CitraClient\GUI\GUITabs\InstanceHistoryTab.cs" />
+    <Compile Include="CitraClient\GUI\GUITabs\MainGUI.cs" />
+    <Compile Include="CitraClient\GUI\GUITabs\MainTab.cs" />
+    <Compile Include="CitraClient\GUI\GUITabs\MovementTab.cs" />
+    <Compile Include="CitraClient\GUI\GUITabs\PlayersTab.cs" />
+    <Compile Include="CitraClient\GUI\GUITabs\SkyBoxTab.cs" />
+    <Compile Include="CitraClient\GUI\QMChanges\ButtonAssetLoader.cs" />
+    <Compile Include="CitraClient\GUI\QMChanges\Cursor.cs" />
+    <Compile Include="CitraClient\GUI\QMChanges\LoadButton.cs" />
+    <Compile Include="CitraClient\GUI\QMChanges\LoadButtonExtensions.cs" />
+    <Compile Include="CitraClient\GUI\QMChanges\QMConsole.cs" />
+    <Compile Include="CitraClient\GUI\QMChanges\UIPopUp.cs" />
+    <Compile Include="CitraClient\GUI\QMChanges\VideoBG.cs" />
+    <Compile Include="CitraClient\GUI\QM\Console\CenterConsole.cs" />
+    <Compile Include="CitraClient\GUI\QM\Console\ConsoleManager.cs" />
+    <Compile Include="CitraClient\GUI\QM\Console\LogType.cs" />
+    <Compile Include="CitraClient\GUI\QM\CustomizeUIMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\DiscordMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\ExploitMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\FunctionMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\InstanceHistoryMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\KeybindMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\MainMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\MediaMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\PickupMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\Playerlist\Playerlist.cs" />
+    <Compile Include="CitraClient\GUI\QM\Playerlist\PlayerlistManager.cs" />
+    <Compile Include="CitraClient\GUI\QM\SkyboxMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\Submenus\MovementMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\Submenus\PickupSubMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\Submenus\SafetyMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\Submenus\Sliders\FunctionSliders.cs" />
+    <Compile Include="CitraClient\GUI\QM\Submenus\Sliders\MovementSliders.cs" />
+    <Compile Include="CitraClient\GUI\QM\Submenus\Sliders\SafetySliders.cs" />
+    <Compile Include="CitraClient\GUI\QM\Submenus\SwastikaMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\TargetCrashMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\TargetMainMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\Target\TargetMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\UdonMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\VideoPlayerMenu.cs" />
+    <Compile Include="CitraClient\GUI\QM\WorldMenu.cs" />
+    <Compile Include="CitraClient\MainLoader.cs" />
+    <Compile Include="CitraClient\Modules\Base\CitraMonoBehaviour.cs" />
+    <Compile Include="CitraClient\Modules\Base\ModuleBase.cs" />
+    <Compile Include="CitraClient\Modules\ESP\CapsuleESP.cs" />
+    <Compile Include="CitraClient\Modules\ESP\TrustLevelESP.cs" />
+    <Compile Include="CitraClient\Modules\Exploits\PickupExploits.cs" />
+    <Compile Include="CitraClient\Modules\Exploits\Swastika.cs" />
+    <Compile Include="CitraClient\Modules\Exploits\WorldExploits.cs" />
+    <Compile Include="CitraClient\Modules\Logger\AvatarObj.cs" />
+    <Compile Include="CitraClient\Modules\Logger\LoggerComponent.cs" />
+    <Compile Include="CitraClient\Modules\Logger\LoggerHandler.cs" />
+    <Compile Include="CitraClient\Modules\Logger\PlayerObj.cs" />
+    <Compile Include="CitraClient\Modules\Misc\MainWindowFinder.cs" />
+    <Compile Include="CitraClient\Modules\Misc\MediaControl.cs" />
+    <Compile Include="CitraClient\Modules\Misc\RussianRoulette.cs" />
+    <Compile Include="CitraClient\Modules\Misc\Thirdperson.cs" />
+    <Compile Include="CitraClient\Modules\Misc\TitleChanger\Pattern.cs" />
+    <Compile Include="CitraClient\Modules\Misc\TitleChanger\Patterns.cs" />
+    <Compile Include="CitraClient\Modules\Misc\TitleChanger\TitleHandler.cs" />
+    <Compile Include="CitraClient\Modules\Movement\MovementComponent.cs" />
+    <Compile Include="CitraClient\Modules\Movement\MovementHandler.cs" />
+    <Compile Include="CitraClient\Modules\Movement\TempMovement.cs" />
+    <Compile Include="CitraClient\Modules\Player\AttachToPlayer.cs" />
+    <Compile Include="CitraClient\Modules\Player\PlayerModules.cs" />
+    <Compile Include="CitraClient\Modules\Protections\RPCProtections.cs" />
+    <Compile Include="CitraClient\Modules\Protections\USpeakProtections.cs" />
+    <Compile Include="CitraClient\Modules\Protections\WorldProtections.cs" />
+    <Compile Include="CitraClient\Modules\World\ChangeSkyBoxes.cs" />
+    <Compile Include="CitraClient\Modules\World\InstanceHistory.cs" />
+    <Compile Include="CitraClient\Modules\World\MirrorMod.cs" />
+    <Compile Include="CitraClient\Modules\World\Util.cs" />
+    <Compile Include="CitraClient\Modules\World\WorldModules.cs" />
+    <Compile Include="CitraClient\Utils\ApplicationUtils.cs" />
+    <Compile Include="CitraClient\Utils\AssetBundleManager\AssetBundleLoaders.cs" />
+    <Compile Include="CitraClient\Utils\AssetBundleManager\Utils.cs" />
+    <Compile Include="CitraClient\Utils\AudioUtils.cs" />
+    <Compile Include="CitraClient\Utils\AutoUpdater.cs" />
+    <Compile Include="CitraClient\Utils\AvatarUtils.cs" />
+    <Compile Include="CitraClient\Utils\CameraUtils.cs" />
+    <Compile Include="CitraClient\Utils\ConsoleUtils.cs" />
+    <Compile Include="CitraClient\Utils\EnableDisableListener.cs" />
+    <Compile Include="CitraClient\Utils\GeneralUtils.cs" />
+    <Compile Include="CitraClient\Utils\Harmony\Hook.cs" />
+    <Compile Include="CitraClient\Utils\Harmony\NativePatches.cs" />
+    <Compile Include="CitraClient\Utils\Harmony\Patch.cs" />
+    <Compile Include="CitraClient\Utils\Harmony\Patches.cs" />
+    <Compile Include="CitraClient\Utils\Harmony\PatchUtils.cs" />
+    <Compile Include="CitraClient\Utils\ImageUtils.cs" />
+    <Compile Include="CitraClient\Utils\Managers\FileManager.cs" />
+    <Compile Include="CitraClient\Utils\MiscUtils.cs" />
+    <Compile Include="CitraClient\Utils\ModerationUtils.cs" />
+    <Compile Include="CitraClient\Utils\PhotonUtils\PhotonPlayerObject.cs" />
+    <Compile Include="CitraClient\Utils\PhotonUtils\PhotonUtils.cs" />
+    <Compile Include="CitraClient\Utils\PickupUtils.cs" />
+    <Compile Include="CitraClient\Utils\PlayerUtils.cs" />
+    <Compile Include="CitraClient\Utils\Serialization.cs" />
+    <Compile Include="CitraClient\Utils\UI\ExtendedQuickMenu.cs" />
+    <Compile Include="CitraClient\Utils\UI\Memory.cs" />
+    <Compile Include="CitraClient\Utils\UI\MezLogger.cs" />
+    <Compile Include="CitraClient\Utils\UI\UIColors.cs" />
+    <Compile Include="CitraClient\Utils\WebUtils.cs" />
+    <Compile Include="CitraClient\Utils\WorldUtils.cs" />
+    <Compile Include="KiraiMod\WingAPI\Extensions.cs" />
+    <Compile Include="KiraiMod\WingAPI\RawUI\WingButton.cs" />
+    <Compile Include="KiraiMod\WingAPI\RawUI\WingPage.cs" />
+    <Compile Include="KiraiMod\WingAPI\RawUI\WingToggle.cs" />
+    <Compile Include="KiraiMod\WingAPI\Wing.cs" />
+    <Compile Include="KiraiMod\WingAPI\WingAPI.cs" />
+    <Compile Include="Microsoft\CodeAnalysis\EmbeddedAttribute.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System\Runtime\CompilerServices\NullableAttribute.cs" />
+    <Compile Include="System\Runtime\CompilerServices\NullableContextAttribute.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CitraClient.buttonbundle" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

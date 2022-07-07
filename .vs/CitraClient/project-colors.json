@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ac16f11b-aa78-4fe3-94e9-5ffef55d0ff7": {
+      "ProjectGuid": "ac16f11b-aa78-4fe3-94e9-5ffef55d0ff7",
+      "DisplayName": "CitraClient",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -6,3 +6,5 @@ credits to Pc Principal#8752     https://cdn.discordapp.com/attachments/91756790
                                                      
 
 mimic going schitzso           https://www.youtube.com/watch?v=38SCL_cfKQY
+
+Make sure to read the  PLACES WHERE HE PASTED for credits to the people he pasted from and proof that its pasted

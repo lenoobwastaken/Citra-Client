@@ -20,7 +20,7 @@ namespace CitraClient.Discord
 			presence.details = "Starting VRChat";
 			presence.state = "Loading...";
 			presence.largeImageKey = "logo";
-			presence.largeImageText = "Using Citra v1.0.1";
+			presence.largeImageText = "Using Citra (PASTE DONT BUY)";
 			presence.partySize = 0;
 			presence.partyMax = 0;
 			presence.startTimestamp = (long)DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1)).TotalSeconds;

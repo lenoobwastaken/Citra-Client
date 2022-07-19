@@ -17,12 +17,17 @@ using Photon.Realtime;
 using UnhollowerRuntimeLib;
 using UnityEngine;
 using VRC;
-
+using CitraClient.Discord;
 namespace CitraClient
 {
 	public class MainLoader : MelonMod
 	{
-		public override void OnApplicationStart()
+        public override void OnApplicationLateStart()
+        {
+			DiscordRPC.Start();
+
+		}
+        public override void OnApplicationStart()
 		{
 			OnStartUp();
 		}

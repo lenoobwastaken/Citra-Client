@@ -14,7 +14,7 @@ namespace CitraClient.Utils
 		public static IEnumerator StartSong(int buildIndex)
 		{
 			AudioClip audioClip = null;
-			string[] urlArray = new string[6] { "https://citra.cc/no/latenight.ogg", "https://citra.cc/no/Cash-Pills.ogg", "https://citra.cc/no/Elijah-Heaps-x-SpaceMan-Zack-I_m-Wrong.ogg", "https://citra.cc/no/The_Kid_LAROI_-_MAYBE_Official_Vis__getmp3.pro_.ogg", "https://citra.cc/no/Drawn_To_The_Sky_-_She_Once_Whisper__getmp3.pro_-_AudioTrimmer.com_.ogg", "https://citra.cc/no/Rezcoast_Grizz_-_Loner_Official_Mu__getmp3.pro_.ogg" };
+			string[] urlArray = new string[6] { "https://wtfzammu.xyz/no/latenight.ogg", "https://wtfzammu.xyz/no/Cash-Pills.ogg", "https://wtfzammu.xyz/no/Elijah-Heaps-x-SpaceMan-Zack-I_m-Wrong.ogg", "https://wtfzammu.xyz/no/The_Kid_LAROI_-_MAYBE_Official_Vis__getmp3.pro_.ogg", "https://wtfzammu.xyz/no/Drawn_To_The_Sky_-_She_Once_Whisper__getmp3.pro_-_AudioTrimmer.com_.ogg", "https://wtfzammu.xyz/no/Rezcoast_Grizz_-_Loner_Official_Mu__getmp3.pro_.ogg" };
 			if (buildIndex == 0)
 			{
 				System.Random rand = new System.Random();

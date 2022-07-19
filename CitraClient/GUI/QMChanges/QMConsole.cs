@@ -53,7 +53,7 @@ namespace CitraClient.GUI.QMChanges
 			Sprite consoleSprite = ImageUtils.ConsoleSprite;
 			try
 			{
-				GameObject.Find("UserInterface/Canvas_QuickMenu(Clone)/Container/Window/QMParent/Menu_Dashboard/ScrollRect/Viewport/VerticalLayoutGroup/Carousel_Banners").SetActive(true);
+			//	GameObject.Find("UserInterface/Canvas_QuickMenu(Clone)/Container/Window/QMParent/Menu_Dashboard/ScrollRect/Viewport/VerticalLayoutGroup/Carousel_Banners").SetActive(true);
 				MainText = ExtendedQuickMenu.GetQmBase().transform.Find("Window/QMParent/Menu_Dashboard/Header_H1/LeftItemContainer");
 				LinkButtons.Add(qmBase.transform.Find("VerticalLayoutGroup/Buttons_QuickLinks/Button_Worlds").gameObject);
 				LinkButtons.Add(qmBase.transform.Find("VerticalLayoutGroup/Buttons_QuickLinks/Button_Avatars").gameObject);
